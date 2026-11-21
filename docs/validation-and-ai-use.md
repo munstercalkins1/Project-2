@@ -1,37 +1,51 @@
 # Validation and AI-Use Record
 
-## Baseline checks
+**AI-use statement:** AI assisted with code organization, test setup, and
+documentation formatting. The analysis and committee decision are the student's.
+This is educational work, not investment advice.
 
-- Weights must sum to 100%.
-- Every candidate is long-only.
-- A feasible mix must meet the 6.5% estimated-return proxy and 3% reserve
-  minimum.
-- The price parser rejects malformed rows, duplicate/missing tickers, and
-  nonpositive prices.
+## Sources and as-of boundary
 
-## Changed-input record
+- `prices.csv` is synthetic classroom data, not a market-data source.
+- The file covers monthly observations from 2021-10-31 through 2026-10-31.
+- The point-in-time VTI trend signal uses only data through 2025-12-31 and may
+  affect only the following annual rebalance.
+- Annual return, volatility, and correlation estimates derived from these inputs
+  are teaching estimates, not forecasts.
 
-The documented one-point equity-return stress changes the estimated equity
-return from 8.0% to 7.0%. It materially changes the selected allocation. The
-student must write and commit a prediction before any new changed-input run;
-see `locked-ai-off-record.md`. The earlier classroom practice record is not a
-substitute for the final GitHub-committed AI-off record.
+## Tests and results
 
-## AI use
+- **Portfolio invariants:** all candidates sum to 100% and are long-only.
+- **Constraint screen:** the app checks reserve eligibility, daily liquidity,
+  and visible monitor items for issuer look-through, turnover, and the undefined
+  calendar-year-loss rule.
+- **Known mandate cases:** `mandate.py` produced the Lab 13 expected results:
+  A passes checkable rules, B fails three, C fails one, and D illustrates why
+  constraints alone do not prove the return objective.
+- **App render:** automated Streamlit validation completed with no app exceptions.
+- **Clean launch:** a fresh clone of `final-project2` installed dependencies and
+  returned HTTP 200 when launched; see `cold-run-record.md`.
+- **Arithmetic check:** the displayed 6.51% base expected return equals
+  `20% × 4.3% + 25% × 5.0% + 55% × 8.0%`.
 
-AI assisted with code organization and documentation. Course inputs and any
-partner observation must be verified by the student; missing evidence remains
-missing rather than estimated.
+## Limitations
 
-## Concrete AI-output check
+The app does not validate real prices, forecast CPI, establish a five-year
+real-return probability, provide issuer-level fund look-through, use actual
+Foundation holdings, or define the calendar-year-loss measure and breach action.
+Those limits support the reject-adoption decision.
 
-**Claim checked:** Lowering the Equity expected-return input from 8.0% to 7.0%
-would make the 6.5% return proxy harder to reach and increase the model's
-Equity allocation.
+## Material AI uses and dispositions
 
-**Disposition:** Accepted after an independent arithmetic check and an app run.
-The base mix has a 6.51% weighted expected return
-(`0.20 × 4.3% + 0.25 × 5.0% + 0.55 × 8.0%`). After the change, the app selected
-10% 10-year bonds, 10% IG bonds, and 80% Equity, with a 6.53% weighted expected
-return (`0.10 × 4.3% + 0.10 × 5.0% + 0.80 × 7.0%`). The allocation becomes more
-Equity-heavy and its shown volatility increases, consistent with the claim.
+| AI/tool, model/version, and date | Material use | Disposition and independent check |
+| --- | --- | --- |
+| OpenAI ChatGPT/Codex, GPT-5 session, 2026-11-19 to 2026-11-21 | Organized the Streamlit app, portfolio calculations, and documentation. | **Accepted in part.** Runtime validation and a fresh-clone launch verified the app executes; the student owns the finance judgment. |
+| OpenAI ChatGPT/Codex, GPT-5 session, 2026-11-19 | Suggested the earlier changed-input prediction wording. | **Rejected for final Locked Changed-Input Record.** The Project 2 rule requires a human-authored AI-off prediction committed before the run. |
+| OpenAI ChatGPT/Codex, GPT-5 session, 2026-11-21 | Suggested a manual weighted-return check for the Equity-return stress. | **Accepted after arithmetic verification.** The base and changed weight/return calculations are shown in the visible output and app. |
+
+## Final Locked Changed-Input Record
+
+The final required record is [`locked-ai-off-record.md`](locked-ai-off-record.md).
+It remains incomplete until the student writes the prediction without AI,
+commits and pushes it to GitHub, runs the selected change, and records the
+observed result and decision effect.

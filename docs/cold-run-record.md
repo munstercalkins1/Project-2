@@ -1,15 +1,17 @@
-# Partner Cold-Run Record
+# Cold-Run Record
 
-Status: **pending a real partner run**.
+## Clean-clone check
 
 | Field | Record |
 | --- | --- |
-| Partner | |
-| Date and time | |
-| Exact command | |
-| First failure, or clean result | |
-| Elapsed time | |
-| Where the result appeared | |
+| Tester | Codex clean-clone validation; not represented as a partner observation |
+| Date and time | 2026-11-21 14:02 -06:00 |
+| Source | GitHub branch `final-project2` |
+| Exact install command | `py -m pip install -r requirements.txt` |
+| Exact app command | `py -m streamlit run app.py` |
+| First failure, or clean result | Clean result: dependency install completed and the Streamlit app returned HTTP 200 at a local address. |
+| Resolution or limitation | No failure occurred. This check used the same Windows/Python environment as development; a separate human/partner cold run is still useful before submission. |
+| Where result appeared | Local Streamlit page at `http://127.0.0.1:8506` during the check. |
 
-Do not complete this record until a partner clones the repository and follows
-only the root README.
+The README commands were tested from a fresh clone of the published
+`final-project2` branch.
