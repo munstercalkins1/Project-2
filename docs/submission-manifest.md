@@ -7,18 +7,18 @@ materials; YouTube links are required for the three videos.
 
 | Required item | Final location |
 | --- | --- |
-| GitHub repository | PASTE GITHUB REPOSITORY LINK |
-| README | PASTE GITHUB README LINK |
-| App | PASTE GITHUB `app.py` LINK |
-| Decision memo | PASTE GITHUB `docs/decision-memo.md` LINK |
-| Validation and AI-use record | PASTE GITHUB `docs/validation-and-ai-use.md` LINK |
-| Locked Changed-Input Record | PASTE GITHUB `docs/locked-changed-input-record.md` LINK |
-| Video 1 | PASTE YOUTUBE LINK |
-| Video 1 transcript | PASTE YOUTUBE TRANSCRIPT LINK OR GITHUB TRANSCRIPT LINK |
-| Video 2 | PASTE YOUTUBE LINK |
-| Video 2 transcript | PASTE YOUTUBE TRANSCRIPT LINK OR GITHUB TRANSCRIPT LINK |
-| Video 3 | PASTE YOUTUBE LINK |
-| Video 3 transcript | PASTE YOUTUBE TRANSCRIPT LINK OR GITHUB TRANSCRIPT LINK |
+| GitHub repository | https://github.com/munstercalkins1/Project-2/tree/final-project2 |
+| README | https://github.com/munstercalkins1/Project-2/blob/final-project2/README.md |
+| App | https://github.com/munstercalkins1/Project-2/blob/final-project2/app.py |
+| Decision memo | https://github.com/munstercalkins1/Project-2/blob/final-project2/docs/decision-memo.md |
+| Validation and AI-use record | https://github.com/munstercalkins1/Project-2/blob/final-project2/docs/validation-and-ai-use.md |
+| Locked Changed-Input Record | https://github.com/munstercalkins1/Project-2/blob/final-project2/docs/locked-ai-off-record.md |
+| Video 1 | ADD AFTER RECORDING |
+| Video 1 transcript | ADD AFTER RECORDING |
+| Video 2 | ADD AFTER RECORDING |
+| Video 2 transcript | ADD AFTER RECORDING |
+| Video 3 | ADD AFTER RECORDING |
+| Video 3 transcript | ADD AFTER RECORDING |
 
 ## App package
 

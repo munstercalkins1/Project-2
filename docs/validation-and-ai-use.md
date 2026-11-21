@@ -14,7 +14,8 @@
 The documented one-point equity-return stress changes the estimated equity
 return from 8.0% to 7.0%. It materially changes the selected allocation. The
 student must write and commit a prediction before any new changed-input run;
-see `locked-changed-input-record.md`.
+see `locked-ai-off-record.md`. The earlier classroom practice record is not a
+substitute for the final GitHub-committed AI-off record.
 
 ## AI use
 
