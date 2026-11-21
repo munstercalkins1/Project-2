@@ -10,16 +10,18 @@ teaching inputs. It is for course work, not investment advice.
 
 ## Start the app
 
-From this repository's root folder, run:
+From this repository's root folder on Windows, run:
 
 ```powershell
-py -m pip install -r requirements.txt
-py -m streamlit run app.py
+py -m venv .venv
+.\.venv\Scripts\python -m pip install -r requirements.txt
+.\.venv\Scripts\python -m streamlit run app.py
 ```
 
-The app opens a local browser page. If `py` is unavailable on another computer,
-install Python 3 first, then rerun the two commands above. The app works without
-an account, external data download, or a notebook.
+The app opens a local browser page. The clean-clone check passed with Python
+3.13.15 and Streamlit 1.66.1 in a new virtual environment. If `py` is not
+available, install Python 3 first and use `python` in place of `py`. The app
+works without an account, external data download, or a notebook.
 
 Read the pages in this order: visible Meridian mandate, point-in-time signal and
 data card, three portfolio comparisons, illustrative annual rebalance, mandate
