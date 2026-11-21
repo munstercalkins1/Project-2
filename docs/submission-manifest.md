@@ -37,7 +37,7 @@
 - [x] README and `requirements.txt` are present.
 - [x] Runnable app, source, synthetic data, and visible output are present.
 - [x] Decision memo, validation/AI-use record, cold-run record, and manifest are Markdown files in `docs/`.
-- [ ] Final AI-off changed-input record is completed and pushed before its run.
+- [x] Final AI-off changed-input record was committed and pushed before its run.
 - [ ] Three final video links and corrected transcript links are added.
 - [ ] Required Markdown files are attached to Brightspace.
 
@@ -52,6 +52,6 @@
 ## Required decision evidence
 
 - `decision-memo.md` - reject-adoption recommendation, allocation range, triggers, and stress-stop rule.
-- `locked-ai-off-record.md` - final human-authored pre-run prediction and observed result; incomplete until finished.
+- `locked-ai-off-record.md` - final human-authored pre-run prediction, immutable pre-run commit, observed result, and decision effect.
 - `validation-and-ai-use.md` - sources/as-of boundary, tests, limitations, AI dispositions, and the final record link.
 - `visible-output.md` - material inputs, as-of date, output, and decision readable without running the app.

@@ -46,6 +46,5 @@ Those limits support the reject-adoption decision.
 ## Final Locked Changed-Input Record
 
 The final required record is [`locked-ai-off-record.md`](locked-ai-off-record.md).
-It remains incomplete until the student writes the prediction without AI,
-commits and pushes it to GitHub, runs the selected change, and records the
-observed result and decision effect.
+It contains the student AI-off prediction, immutable pre-run GitHub commit,
+observed result, and decision effect for the 8.0% to 9.0% Equity-return test.
