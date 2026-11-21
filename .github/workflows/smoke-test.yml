@@ -1,0 +1,26 @@
+name: Project 2 Smoke Test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  app-smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install pinned dependency
+        run: python -m pip install -r requirements.txt
+      - name: Render Streamlit app
+        run: |
+          python - <<'PY'
+          from streamlit.testing.v1 import AppTest
+
+          app = AppTest.from_file('app.py')
+          app.run(timeout=30)
+          assert not app.exception, [str(item.value) for item in app.exception]
+          assert len(app.dataframe) >= 4
+          PY

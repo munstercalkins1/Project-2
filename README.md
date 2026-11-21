@@ -23,6 +23,13 @@ The app opens a local browser page. The clean-clone check passed with Python
 available, install Python 3 first and use `python` in place of `py`. The app
 works without an account, external data download, or a notebook.
 
+## Reproducibility check
+
+GitHub Actions runs a clean Linux smoke test on every push: it installs the
+pinned dependency and renders the Streamlit app without exceptions. The
+`docs/cold-run-record.md` also records successful fresh-clone launches on
+Windows, including an isolated virtual-environment test.
+
 Read the pages in this order: visible Meridian mandate, point-in-time signal and
 data card, three portfolio comparisons, illustrative annual rebalance, mandate
 verdict, and stress run.
