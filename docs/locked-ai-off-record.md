@@ -25,6 +25,6 @@ review it.
 
 | Field | Record |
 | --- | --- |
-| Actual portfolio result | The constrained mix changed from 0% Bills, 20% 10-year bonds, 25% IG bonds, and 55% Equity to 0% Bills, 40% 10-year bonds, 15% IG bonds, and 45% Equity. Estimated return was 6.52%, volatility was 7.94%, and reserve-eligible weight was 40%. |
-| Did the recommendation change? Why or why not? | No. The recommendation remains reject adoption with a 0% to 0% allocation range because the data remain synthetic, the CPI + 4% objective remains unproven, and the stress-stop conditions and unresolved loss-rule process remain. |
-| What did I learn from the test? | A higher Equity expected-return input allowed the optimizer to meet the 6.5% teaching proxy with a lower Equity weight and more 10-year bonds. The prediction's expected direction for Equity weight was consistent with the result; the committee decision did not change. |
+| Actual portfolio result | decrease of 0.5 |
+| Did the recommendation change? Why or why not? | Yes, higher returns use up more equity. |
+| What did I learn from the test? | I learned that an increase in equity return will decrease the overall equity. |
