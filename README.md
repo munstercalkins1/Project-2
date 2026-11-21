@@ -4,7 +4,7 @@
 The analysis and committee decision are the student's. This is educational work,
 not investment advice.
 
-This is the runnable FIN 390 Project 2 package. It evaluates five-point,
+This is the runnable FIN 43900 Project 2 package. It evaluates five-point,
 long-only portfolio mixes across BIL, IEF, LQD, and VTI using the included
 teaching inputs. It is for course work, not investment advice.
 

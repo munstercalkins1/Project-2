@@ -4,15 +4,15 @@
 
 | Required item | Final location |
 | --- | --- |
-| GitHub repository | https://github.com/munstercalkins1/Project-2/tree/final-project2 |
-| README | https://github.com/munstercalkins1/Project-2/blob/final-project2/README.md |
-| Runnable app | https://github.com/munstercalkins1/Project-2/blob/final-project2/app.py |
-| Calculation engine | https://github.com/munstercalkins1/Project-2/blob/final-project2/portfolio.py |
-| Decision memo | https://github.com/munstercalkins1/Project-2/blob/final-project2/docs/decision-memo.md |
-| Validation and AI-use record | https://github.com/munstercalkins1/Project-2/blob/final-project2/docs/validation-and-ai-use.md |
-| Final Locked Changed-Input Record | https://github.com/munstercalkins1/Project-2/blob/final-project2/docs/locked-ai-off-record.md |
-| Visible executed output | https://github.com/munstercalkins1/Project-2/blob/final-project2/docs/visible-output.md |
-| Cold-run record | https://github.com/munstercalkins1/Project-2/blob/final-project2/docs/cold-run-record.md |
+| GitHub repository | https://github.com/munstercalkins1/Project-2 |
+| README | https://github.com/munstercalkins1/Project-2/blob/main/README.md |
+| Runnable app | https://github.com/munstercalkins1/Project-2/blob/main/app.py |
+| Calculation engine | https://github.com/munstercalkins1/Project-2/blob/main/portfolio.py |
+| Decision memo | https://github.com/munstercalkins1/Project-2/blob/main/docs/decision-memo.md |
+| Validation and AI-use record | https://github.com/munstercalkins1/Project-2/blob/main/docs/validation-and-ai-use.md |
+| Final Locked Changed-Input Record | https://github.com/munstercalkins1/Project-2/blob/main/docs/locked-ai-off-record.md |
+| Visible executed output | https://github.com/munstercalkins1/Project-2/blob/main/docs/visible-output.md |
+| Cold-run record | https://github.com/munstercalkins1/Project-2/blob/main/docs/cold-run-record.md |
 | Video 1 | ADD AFTER RECORDING |
 | Video 1 transcript | ADD AFTER RECORDING |
 | Video 2 | ADD AFTER RECORDING |

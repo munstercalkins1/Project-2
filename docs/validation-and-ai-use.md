@@ -23,7 +23,7 @@ This is educational work, not investment advice.
   A passes checkable rules, B fails three, C fails one, and D illustrates why
   constraints alone do not prove the return objective.
 - **App render:** automated Streamlit validation completed with no app exceptions.
-- **Clean launch:** a fresh clone of `final-project2` installed dependencies and
+- **Clean launch:** a fresh clone of the clean Project 2 branch installed dependencies and
   returned HTTP 200 when launched; see `cold-run-record.md`.
 - **Arithmetic check:** the displayed 6.51% base expected return equals
   `20% × 4.3% + 25% × 5.0% + 55% × 8.0%`.
