@@ -11,16 +11,16 @@ review it.
 | Field | Record |
 | --- | --- |
 | Input changed and units | |
-| Old value | |
-| New value | |
-| My prediction of direction and decision effect | |
-| Date/time written | |
-| GitHub commit URL created before the run | |
+| Old value |8.0  equity return |
+| New value | 9.0 equity return|
+| My prediction of direction and decision effect | I believe that the increase of equity will decrease the overall equity. |
+| Date/time written | 11/21/2026|
+| GitHub commit URL created before the run |https://github.com/munstercalkins1/Project-2 |
 
 ## Result after the committed run
 
 | Field | Record |
 | --- | --- |
-| Actual portfolio result | |
-| Did the recommendation change? Why or why not? | |
-| What did I learn from the test? | |
+| Actual portfolio result | decrease of 0.5|
+| Did the recommendation change? Why or why not? |Yes, higher returns use up more equity. |
+| What did I learn from the test? |I learned that an increase in equity return will decrease the overall equity. |
