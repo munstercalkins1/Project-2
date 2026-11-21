@@ -25,6 +25,6 @@ review it.
 
 | Field | Record |
 | --- | --- |
-| Actual portfolio result | decrease of 0.5 |
-| Did the recommendation change? Why or why not? | Yes, higher returns use up more equity. |
+| Actual portfolio result | Equity allocation dropped by 10 percentage points, from 55% to 45%. |
+| Did the recommendation change? Why or why not? | The recommendation did not change; it remained reject adoption. |
 | What did I learn from the test? | I learned that an increase in equity return will decrease the overall equity. |
