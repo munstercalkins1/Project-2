@@ -23,6 +23,14 @@ completes issuer-level look-through, and defines the calendar-year-loss
 measurement and breach action. These are the triggers to monitor before
 considering a pilot or allocation range.
 
+## Committee ask
+
+Do not approve adoption, allocation, or rebalance into this process today.
+Direct the portfolio owner to provide validated market data, a defensible
+real-return objective analysis, transaction-cost and turnover evidence,
+issuer-level look-through, and a defined calendar-year-loss process before the
+committee considers a pilot.
+
 ## Conditions that would reverse the decision
 
 Reconsider only after the portfolio owner supplies validated price data and

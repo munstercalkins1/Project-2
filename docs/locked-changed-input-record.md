@@ -1,4 +1,9 @@
-# Locked Changed-Input Record
+# Archived Practice Changed-Input Record — Do Not Use for Final Submission
+
+This earlier classroom practice record used AI-assisted wording and was not
+committed to GitHub before its run. It is retained only as development history.
+The final submission record is `locked-ai-off-record.md`, which contains the
+human-authored prediction and immutable pre-run commit.
 
 Status: **write this prediction yourself before the run**.
 
