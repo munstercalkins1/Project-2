@@ -42,6 +42,7 @@ Those limits support the reject-adoption decision.
 | OpenAI ChatGPT/Codex, GPT-5 session, 2026-11-19 to 2026-11-21 | Organized the Streamlit app, portfolio calculations, and documentation. | **Accepted in part.** Runtime validation and a fresh-clone launch verified the app executes; the student owns the finance judgment. |
 | OpenAI ChatGPT/Codex, GPT-5 session, 2026-11-19 | Suggested the earlier changed-input prediction wording. | **Rejected for final Locked Changed-Input Record.** The Project 2 rule requires a human-authored AI-off prediction committed before the run. |
 | OpenAI ChatGPT/Codex, GPT-5 session, 2026-11-21 | Suggested a manual weighted-return check for the Equity-return stress. | **Accepted after arithmetic verification.** The base and changed weight/return calculations are shown in the visible output and app. |
+| OpenAI ChatGPT/Codex, GPT-5 session, 2026-11-21 | Drafted video recording scripts and screen cues. | **Student must verify and present the content personally.** The scripts are planning aids, not substitutes for the student's explanation or webcam-on recordings. |
 
 ## Final Locked Changed-Input Record
 
