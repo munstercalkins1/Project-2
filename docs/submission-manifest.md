@@ -13,10 +13,10 @@
 | Final Locked Changed-Input Record | https://github.com/munstercalkins1/Project-2/blob/main/docs/locked-ai-off-record.md |
 | Visible executed output | https://github.com/munstercalkins1/Project-2/blob/main/docs/visible-output.md |
 | Cold-run record | https://github.com/munstercalkins1/Project-2/blob/main/docs/cold-run-record.md |
-| Video 1 | ADD AFTER RECORDING |
-| Video 1 transcript | ADD AFTER RECORDING |
-| Video 2 | ADD AFTER RECORDING |
-| Video 2 transcript | ADD AFTER RECORDING |
+| Video 1 | https://www.youtube.com/watch?v=tOHXUIVB0Zg |
+| Video 1 transcript | https://github.com/munstercalkins1/Project-2/blob/main/docs/transcript-video-1.txt |
+| Video 2 | https://www.youtube.com/watch?v=lO34xvlqgUA |
+| Video 2 transcript | https://github.com/munstercalkins1/Project-2/blob/main/docs/transcript-video-2.txt |
 | Video 3 | ADD AFTER RECORDING |
 | Video 3 transcript | ADD AFTER RECORDING |
 

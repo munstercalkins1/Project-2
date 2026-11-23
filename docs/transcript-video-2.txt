@@ -1,1 +1,21 @@
-REPLACE AFTER RECORDING: Paste the corrected YouTube transcript for Video 2 here.
+Video 2 — Code Walkthrough Transcript
+
+AI assisted with code organization and documentation. This is my analysis and design of the committee decision. This is educational work, not investment advice.
+
+In this video, I will explain how the Meridian portfolio application works and how someone else can use it.
+
+This is the Streamlit application. The mandate is shown first, so the committee objective, benchmark reference, risk measure, limits, and unresolved loss-rule question are not hidden in the code. The stated objective is CPI plus 4% net of costs over rolling five-year periods.
+
+The controls are bounded. A user can change the objective proxy, reserve floor, expected returns, and return window, and can reset to the base case. Those bounds make sensitivity testing controlled instead of allowing unlimited assumptions with no governance.
+
+I created three portfolio approaches: equal weights, benchmark weights, and the constrained answer. The application shows those three choices side by side. Equal weight is the first transparent baseline. The 60/40 allocation is the second baseline, and the third portfolio is constrained by the Meridian mandate. Each receives the same return, volatility, reserve, and mandate-verdict treatment, so the proposed process is not judged in isolation.
+
+This file performs the portfolio calculations. Estimated return and volatility drive allocations in 5% steps and keep the lowest-risk mix that reaches the objective.
+
+The mandate checker tests what can honestly be tested. Weights add to 100%, holdings are long-only, the reserve is met, and the classroom sleeves are daily liquid.
+
+The VTI trend signal is point-in-time. This is the monthly teaching data for bills, 10-year Treasury bonds, investment-grade bonds, and VTI. The data card says clearly that the data are synthetic classroom data. They are not live market data, a forecast, or proof that the return objective will be reached.
+
+The stress run changes estimates, the return window, transaction costs, and the reserve limit.
+
+Finally, this is the README.
