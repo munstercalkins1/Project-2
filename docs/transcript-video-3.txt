@@ -1,1 +1,31 @@
-REPLACE AFTER RECORDING: Paste the corrected YouTube transcript for Video 3 here.
+Video 3 — Committee Presentation Transcript
+
+This is my analysis and committee decision. This is educational work, not investment advice.
+
+This is the Meridian Portfolio Decision Tool. I will begin by operating the app, then I will give my recommendation to the committee. The client is the Meridian Foundation Reserve, and the decision is whether this portfolio-management process should be adopted and funded.
+
+First, this mandate panel defines the investment problem. The objective is to achieve CPI plus 4% net of costs over rolling five-year periods. The investment horizon is seven years, and the portfolio is rebalanced annually.
+
+The portfolio must remain long-only, with no borrowing, short positions, or derivatives. It also must maintain liquidity for spending needs, including a one-year cash or daily-liquid government reserve. There is an 8% maximum issuer concentration, and at least 90% must be redeemable within five business days. The risk measure is annualized volatility.
+
+The 60/40 allocation is a reference benchmark, not a requirement that the reserve hold 60% stocks and 40% bonds. The mandate also mentions calendar-year losses, but it does not define how they are measured, what valuation convention applies, or what happens after a breach. The committee should clarify that policy before treating it as a binding rule.
+
+Now I am going to move to the portfolio comparison. The app compares three approaches: equal weight, a transparent 60/40 baseline, and the constrained portfolio. For each, we can see estimated return, annualized volatility, reserve weight, and the mandate verdict.
+
+A passing verdict does not prove that the portfolio will achieve CPI plus 4% after costs. A portfolio can meet the mechanical liquidity and concentration requirements and still be a weak design for achieving the return objective.
+
+Next is the driver panel. These controls let the committee examine assumptions without editing the code. We can adjust expected-return assumptions, the objective proxy, the reserve floor, and the historical return window. For example, I am going to change the Equity expected return from 8% to 9% and see what happens.
+
+The allocation changes and Equity moves from about 55% to 45%. More importantly, the committee recommendation does not change. I will reset the tool to the base case after this test. In a real meeting, I would test one assumption at a time, discuss whether it is reasonable, inspect both the portfolio weights and mandate verdicts, and reset before the next question.
+
+This annual rebalance section addresses implementation. The model uses an annual rebalancing schedule. If moving from the current allocation to the target requires more than 25% turnover, it requires committee approval.
+
+Now I am going to show the stress test. The stress results change the assumptions that matter most to the decision: expected returns, the history window, transaction costs, and the reserve constraint.
+
+The process has a clear stop rule. If a material stress scenario produces no feasible portfolio or fails the objective proxy after costs under the mandate, we stop. We do not continue by selecting the best-looking output anyway. Instead, we withhold adoption until the weakness is addressed.
+
+I also documented this assumption test in a locked record. Before running it, I wrote down my prediction. The allocation changed, but the ultimate recommendation remained rejection. That supports the conclusion that the decision is driven by evidence limitations and the stress process, not one favorable output.
+
+Before the committee considers a pilot, it should validate the historical and market inputs, define the loss measurement and breach action, document implementation costs and turnover, complete issuer look-through, and rerun the base case and stress suite. Only if those steps are complete and the results are robust would I bring back a pilot recommendation.
+
+Thank you.

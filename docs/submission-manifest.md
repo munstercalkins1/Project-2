@@ -18,7 +18,7 @@
 | Video 2 | https://www.youtube.com/watch?v=lO34xvlqgUA |
 | Video 2 transcript | https://github.com/munstercalkins1/Project-2/blob/main/docs/transcript-video-2.txt |
 | Video 3 | ADD AFTER RECORDING |
-| Video 3 transcript | ADD AFTER RECORDING |
+| Video 3 transcript | https://github.com/munstercalkins1/Project-2/blob/main/docs/transcript-video-3.txt |
 
 ## Video and access checklist - complete after recording
 
