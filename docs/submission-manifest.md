@@ -24,13 +24,13 @@
 
 | Item | Status / final value |
 | --- | --- |
-| Video 1 title, duration (maximum 3:00), and timestamp index | ADD AFTER RECORDING |
-| Video 2 title, duration (maximum 5:00), and timestamp index | ADD AFTER RECORDING |
-| Video 3 title, duration (maximum 5:00), and timestamp index | ADD AFTER RECORDING |
+| Video 1 title, duration (maximum 3:00), and timestamp index | **System and Thinking Changes** — 2:35. 0:00 investment problem; 0:50 portfolio comparisons; 1:37 locked changed-input test; 2:27 reconsideration triggers. |
+| Video 2 title, duration (maximum 5:00), and timestamp index | **Code Walkthrough** — 3:12. 0:00 app and mandate; 1:03 portfolio comparisons; 1:44 portfolio calculations; 2:28 synthetic-data boundary; 2:54 stress process; 3:08 README. |
+| Video 3 title, duration (maximum 5:00), and timestamp index | **Committee Presentation** — 5:14. 0:00 live app and mandate; 1:37 portfolio comparison; 2:13 driver test; 3:19 implementation; 3:42 stress process; 4:19 locked record; 4:50 pilot conditions. **Must be trimmed or re-recorded to 5:00 or less before submission.** |
 | Webcam visible and audio clear in all three videos | CONFIRM AFTER RECORDING |
 | Video 3 opens with the live app running | CONFIRM AFTER RECORDING |
 | YouTube links work while logged out | CONFIRM AFTER RECORDING |
-| Corrected transcripts are attached or linked | CONFIRM AFTER RECORDING |
+| Corrected transcripts are attached or linked | Linked above; student must compare the final captions/transcripts against each recording. |
 
 ## Frozen-file checklist
 
@@ -38,7 +38,7 @@
 - [x] Runnable app, source, synthetic data, and visible output are present.
 - [x] Decision memo, validation/AI-use record, cold-run record, and manifest are Markdown files in `docs/`.
 - [x] Final AI-off changed-input record was committed and pushed before its run.
-- [ ] Three final video links and corrected transcript links are added.
+- [x] Three final video links and transcript links are added.
 - [ ] Required Markdown files are attached to Brightspace.
 
 ## App package
