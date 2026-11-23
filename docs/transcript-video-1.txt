@@ -1,1 +1,15 @@
-REPLACE AFTER RECORDING: Paste the corrected YouTube transcript for Video 1 here.
+Video 1 — System and Thinking Changes Transcript
+
+This is my Meridian Foundation Reserve portfolio-management application. In this video, I will explain the investment problem, how my approach changed, and one input that I checked myself.
+
+The client objective is CPI plus 4% net of costs over rolling five-year periods. The horizon is seven years, and the implementation schedule is annual rebalancing. The mandate also requires spending liquidity, a liquid government reserve, long-only holdings, no borrowing, no derivatives, and assets that can be redeemed within five business days.
+
+The mandate panel in the app compares three choices under the same mandate: equal weight, a transparent 60/40 baseline, and the constrained portfolio. I included the baselines because the committee should be able to see whether the proposed process adds anything beyond simple, understandable choices.
+
+Each result includes a mandate verdict. Passing mechanical rules is useful, but it does not itself prove that a portfolio can actually reach CPI plus 4% after costs. My thinking changed when I focused on the difference between a constraint check and a credible objective.
+
+I performed a locked changed-input test. Before running it, I wrote my own prediction and increased the Equity expected return from 8% to 9%. The purpose was not to prove a forecast. It was to see whether the portfolio construction behaved in a way I could explain.
+
+After the committee run, the Equity allocation dropped by 10 percentage points, from 55% to 45%. The recommendation did not change. I still rejected adoption because changing one assumption does not validate synthetic teaching data and does not create a reliable five-year forecast.
+
+I would reconsider only after the committee has validated inputs, clarified the loss rule, and seen robust results across the required stress cases.
